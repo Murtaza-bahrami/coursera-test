@@ -1,0 +1,55 @@
+
+h1{
+	text-align: center
+}
+
+.product{
+	background-color: #edcc6f;
+	border: 1px solid black;
+	display: inline-block;
+	
+	padding: 10px;
+	margin-left:2px ;
+	position: relative;
+	margin-top: 20px;
+
+}
+.title{
+	background-color: #a1977d;
+	
+	width: 100px;
+	border: 1px solid black;
+	float: right;
+	position: relative;
+	top: -33px;
+	right: -10px;
+
+}
+h5{
+	color: white;
+	text-align: center;
+}
+
+@media (min-width: 992px ){
+	.product{
+		width: 30%;
+
+	}
+}
+
+@media(max-width: 991px) and (min-width: 768px ){
+	.product{
+		width: 45%;
+	}
+	.product:nth-child(3){
+		width: 94%;
+	}
+
+}
+
+@media(max-width: 767px){
+	.product{
+		width: 90%;
+	}
+	
+}
